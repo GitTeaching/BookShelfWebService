@@ -3,6 +3,7 @@ package org.soa.ws.tp5;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
+@XmlRootElement
 @XmlType(propOrder={"id", "author", "name"})
 public class BookVO {
 
