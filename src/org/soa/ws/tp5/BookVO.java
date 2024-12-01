@@ -19,7 +19,7 @@ public class BookVO {
     public BookVO () {}
 
     public String getAuthor() {
-        return author;
+        return this.author;
     }
 
     public void setAuthor(String author) {
@@ -28,7 +28,7 @@ public class BookVO {
 
     @XmlElement(name="bookId")
 	public String getId() {
-		return id;
+		return this.id;
 	}
 
 	public void setId(String id) {
@@ -37,7 +37,7 @@ public class BookVO {
 
         @XmlElement(name="bookName")
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
